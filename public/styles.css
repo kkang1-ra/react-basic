@@ -1,0 +1,88 @@
+@import 'handsontable/dist/handsontable.full.css';
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+#App {
+  height: 100%;
+  display: flex;
+  position: relative;
+}
+
+main {
+  padding: 15px;
+  height: 100%;
+  width: 100%;
+  display: flex !important;
+  position: relative;
+  flex-direction: row;
+  background-image: linear-gradient(30deg, #191D52, #216D92);
+}
+
+.container-fluid {
+  height: 100%;
+  padding: 0px !important;
+}
+
+.left-panel {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  width: 50%;
+}
+
+.right-panel {
+  display: flex;
+  flex-direction: column;
+  margin: 1%;
+  width: 50%;
+}
+
+.section-panel {
+  border-radius: 3px;
+  background-color: rgba(28, 34, 75, 0.637);
+  margin: 1%;
+}
+
+.oee-gauges {
+  display: flex;
+  flex-direction: row;
+  height: 25%;
+  align-items: center;
+}
+
+.oee-main {
+  width: 30%;
+}
+
+.oee-apq {
+  width: 23.3%;
+}
+
+.rate-losses {
+  height: 30%;
+  align-items: center;
+}
+
+.line-status {
+  height: 35%;
+}
+
+.line-status-timeline {
+  height: 28%;
+}
+
+.event {
+  height: 100%;
+}
+
+.event-trend {
+  height: 30%;
+}
+
+.ht_clone_top, .ht_clone_left, .ht_clone_bottom, .ht_clone_right {
+  display: none;
+}
